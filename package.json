@@ -1,0 +1,16 @@
+{
+  "name": "textexpanderexporter",
+  "version": "1.0.0",
+  "description": "Exports TextExpander snippets to other formats.",
+  "main": "bin/textexporter",
+  "scripts": {
+    "clean": "cat .cleanrc | sed -E '/^#.*$/ d' | sed '/^\\s*$/ d' | xargs rm -rf",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nick Williams",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "underscore": "^1.9.1",
+    "xml2js": "^0.4.19"
+  }
+}
