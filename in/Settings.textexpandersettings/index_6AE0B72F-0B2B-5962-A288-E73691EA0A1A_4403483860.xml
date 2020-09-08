@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Always Use Clipboard</key>
+	<true/>
+	<key>Auditory Feedback</key>
+	<true/>
+	<key>Automatic Backup</key>
+	<true/>
+	<key>Backup Frequency</key>
+	<integer>1440</integer>
+	<key>Backup Limit</key>
+	<integer>5</integer>
+	<key>Backup Path</key>
+	<string>~/Library/Application Support/TextExpander/Backups</string>
+	<key>BonjourSendGroups</key>
+	<true/>
+	<key>Characters Saved</key>
+	<integer>64217</integer>
+	<key>Client Mode</key>
+	<integer>0</integer>
+	<key>Cross Platform Images</key>
+	<true/>
+	<key>Date 3.X Installed</key>
+	<date>2012-02-06T21:12:12Z</date>
+	<key>Date 4.X Installed</key>
+	<date>2014-11-12T19:25:10Z</date>
+	<key>Date 5.X Installed</key>
+	<date>2015-05-28T19:16:31Z</date>
+	<key>Date Installed</key>
+	<date>2011-01-12T22:40:04Z</date>
+	<key>Delimiters</key>
+	<string> 	</string>
+	<key>Expander Mode</key>
+	<integer>0</integer>
+	<key>IconGraphite</key>
+	<true/>
+	<key>IconNameStem</key>
+	<string>SMTEStatusItem2</string>
+	<key>Include HTML</key>
+	<true/>
+	<key>Last Version</key>
+	<string>5.1.5</string>
+	<key>Restore Pasteboard</key>
+	<true/>
+	<key>Snippet Count</key>
+	<integer>1131</integer>
+	<key>Snippet Menu Item Width</key>
+	<integer>220</integer>
+	<key>Status Item</key>
+	<true/>
+	<key>TutorialWasOffered</key>
+	<true/>
+	<key>checkforupdates</key>
+	<true/>
+	<key>checkfrequency</key>
+	<integer>7</integer>
+	<key>defaultSound</key>
+	<string>Pop</string>
+	<key>expanderExceptions</key>
+	<array/>
+	<key>expanderExceptionsMode</key>
+	<integer>0</integer>
+	<key>groupsTE5</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>General</string>
+			<key>uuidString</key>
+			<string>E76780C2-9039-40E3-B611-A9E7A0E95FDE</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Operations</string>
+			<key>uuidString</key>
+			<string>8607FB03-071B-4005-8CE8-05225A494537</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Mashery</string>
+			<key>uuidString</key>
+			<string>5BD0E85F-2FFF-4E6E-BEBC-A65F4071E9D0</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Characters</string>
+			<key>uuidString</key>
+			<string>4D7C8EFE-FA61-4BC9-8F7D-B11A769AA8CF</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Personal Information</string>
+			<key>uuidString</key>
+			<string>5F312DE6-5473-464F-AF24-213D36532FA9</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Fillers</string>
+			<key>uuidString</key>
+			<string>707A42D2-9C63-4978-81C8-491DE7B36BFB</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Documents</string>
+			<key>uuidString</key>
+			<string>413B1C6B-136E-484B-A90D-9C10EFD8C582</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Suggested Snippets</string>
+			<key>uuidString</key>
+			<string>0EA8C837-0E5C-4349-B26C-D0787D4E5617</string>
+		</dict>
+	</array>
+	<key>groupsToDeleteDuringSync</key>
+	<array/>
+	<key>hotKeyEnableCharacters</key>
+	<string>E</string>
+	<key>hotKeyEnableKeyCode</key>
+	<integer>14</integer>
+	<key>hotKeyEnableKeyName</key>
+	<string>e</string>
+	<key>hotKeyEnableModifiers</key>
+	<integer>6912</integer>
+	<key>hotKeyEnableOn</key>
+	<true/>
+	<key>outlineState</key>
+	<array>
+		<string>E76780C2-9039-40E3-B611-A9E7A0E95FDE</string>
+		<string>8607FB03-071B-4005-8CE8-05225A494537</string>
+	</array>
+	<key>primaryAscending</key>
+	<true/>
+	<key>primarySortKey</key>
+	<string>labelForSort</string>
+	<key>rejectedHashes</key>
+	<array>
+		<integer>15245917334683216120</integer>
+		<integer>2989960075127780372</integer>
+		<integer>1877475522500992048</integer>
+		<integer>12260458040605024497</integer>
+		<integer>1520908835072514682</integer>
+		<integer>7086903602975692548</integer>
+		<integer>1548439723077269107</integer>
+		<integer>7192284923478279387</integer>
+		<integer>16726471129485849072</integer>
+		<integer>1316949665253477227</integer>
+		<integer>14952207329912418509</integer>
+		<integer>791112291286991098</integer>
+		<integer>14821626270205593271</integer>
+		<integer>13191717318823614123</integer>
+		<integer>10540127790841273453</integer>
+		<integer>6284662235852054576</integer>
+		<integer>16129167026252457299</integer>
+		<integer>13351701255377826714</integer>
+		<integer>8534605254167648496</integer>
+		<integer>6510373180676443584</integer>
+		<integer>2277882318336625567</integer>
+		<integer>3207367373695705248</integer>
+		<integer>12871983914983202252</integer>
+		<integer>5104516710128225</integer>
+		<integer>6305278443370378431</integer>
+		<integer>11552281783318043523</integer>
+		<integer>2761190345473149894</integer>
+		<integer>2454823197043533738</integer>
+		<integer>2948502000099838571</integer>
+		<integer>4694613426148649486</integer>
+		<integer>16344677771069169649</integer>
+		<integer>3889073717032553124</integer>
+		<integer>11992405034240940487</integer>
+		<integer>17900640867439509661</integer>
+		<integer>8321884564038071278</integer>
+		<integer>13873776164802709976</integer>
+		<integer>8932179644663018367</integer>
+		<integer>13262879020433651328</integer>
+		<integer>1051311895102337389</integer>
+		<integer>10114158757273095965</integer>
+		<integer>12007696546195738447</integer>
+		<integer>12516679053929005092</integer>
+		<integer>8110927842656822646</integer>
+		<integer>5464102196879328725</integer>
+		<integer>15049179679557720013</integer>
+		<integer>12769248160582346981</integer>
+		<integer>4059693460837560581</integer>
+		<integer>5641641688311192229</integer>
+		<integer>8433152792222331311</integer>
+		<integer>8821315682119308777</integer>
+		<integer>7971685922395240245</integer>
+		<integer>9630022000625332735</integer>
+		<integer>1569267992256887323</integer>
+		<integer>14488141927890046670</integer>
+		<integer>1655503183499498328</integer>
+		<integer>10538596356279203662</integer>
+		<integer>3437189591063105793</integer>
+		<integer>7664544604554737155</integer>
+		<integer>5212187803046202510</integer>
+		<integer>12335456364807496149</integer>
+		<integer>2389052091499125807</integer>
+		<integer>9297130585602257166</integer>
+		<integer>311578592967798931</integer>
+		<integer>9336020074323773106</integer>
+		<integer>14546229410319658915</integer>
+		<integer>1654136591437861133</integer>
+		<integer>15645646663472269178</integer>
+		<integer>8934010087859855762</integer>
+		<integer>3945928510331390431</integer>
+		<integer>11069772873220018596</integer>
+		<integer>17072326684974710086</integer>
+		<integer>9284487961587866667</integer>
+		<integer>17132557014572384152</integer>
+		<integer>3025818700125334464</integer>
+		<integer>58268042191072347</integer>
+		<integer>1233146684735239253</integer>
+		<integer>9941898278103</integer>
+		<integer>16406405768197871293</integer>
+		<integer>7368100409606187596</integer>
+		<integer>2862973547151877992</integer>
+		<integer>17577478648327483075</integer>
+		<integer>18165284505993196228</integer>
+		<integer>11605808312058583240</integer>
+		<integer>11616137569291686665</integer>
+		<integer>10553006504185364437</integer>
+		<integer>1752066560114979539</integer>
+		<integer>6338245292901180231</integer>
+		<integer>5397368321266155</integer>
+		<integer>12810488021068036660</integer>
+		<integer>5707802521623654289</integer>
+		<integer>15563582206657418409</integer>
+		<integer>11274830562545257587</integer>
+		<integer>12298247115739652311</integer>
+		<integer>10255403690158240800</integer>
+		<integer>7366399760901234312</integer>
+		<integer>2842978653619484068</integer>
+		<integer>895388030440274652</integer>
+		<integer>5568900146351144828</integer>
+		<integer>8286555359686763040</integer>
+		<integer>576664431809570816</integer>
+		<integer>8356983639276038272</integer>
+		<integer>19937307583</integer>
+		<integer>12522956155702214866</integer>
+		<integer>4190706947726526656</integer>
+		<integer>11971026155192994112</integer>
+		<integer>16056666652569963694</integer>
+		<integer>13665006692785324098</integer>
+		<integer>6880082719529135267</integer>
+		<integer>7173408245507383334</integer>
+		<integer>3047584811686807840</integer>
+		<integer>21091579890</integer>
+		<integer>17240885251726114375</integer>
+		<integer>14472128772572818632</integer>
+		<integer>2777341743398028023</integer>
+		<integer>5071442581828616948</integer>
+		<integer>5584247757881335746</integer>
+		<integer>8985821592079673156</integer>
+		<integer>15668142218506555873</integer>
+		<integer>1076780900111089427</integer>
+		<integer>4313948781620169087</integer>
+		<integer>3421609685828439030</integer>
+		<integer>4448892489695058184</integer>
+		<integer>9446422459829935237</integer>
+		<integer>17595064065518900900</integer>
+		<integer>17399035248404492103</integer>
+		<integer>17622594944536938621</integer>
+		<integer>15634625058396170688</integer>
+		<integer>4968200192153086528</integer>
+		<integer>1152419895616216156</integer>
+		<integer>10139902784567891129</integer>
+		<integer>18226612472824756041</integer>
+		<integer>11624147040687975260</integer>
+		<integer>16596983474818097989</integer>
+		<integer>1061425796052160715</integer>
+		<integer>2394177256203494242</integer>
+		<integer>11316517693556484753</integer>
+		<integer>7815919456126642939</integer>
+		<integer>9514023579183608055</integer>
+		<integer>8104684784606614873</integer>
+		<integer>14596675195492484569</integer>
+		<integer>11663589141247327672</integer>
+		<integer>13635896755435949719</integer>
+		<integer>4449017069490546806</integer>
+		<integer>11663947085338021572</integer>
+		<integer>1141128246611754539</integer>
+		<integer>6457436246800159010</integer>
+		<integer>14596675197643626710</integer>
+		<integer>11612888151148461196</integer>
+		<integer>6458995397523163940</integer>
+		<integer>15416343518673755311</integer>
+		<integer>8088547722321698835</integer>
+		<integer>12029325851621832091</integer>
+		<integer>16807420553473108890</integer>
+		<integer>16727260559428018591</integer>
+		<integer>4803205216528184556</integer>
+	</array>
+	<key>secondaryAscending</key>
+	<true/>
+	<key>secondarySortKey</key>
+	<string>plainSnippetReplacementWithSimplifications</string>
+	<key>snippetsToDeleteDuringSync</key>
+	<array/>
+	<key>wantsDaemonEnabled</key>
+	<true/>
+</dict>
+</plist>

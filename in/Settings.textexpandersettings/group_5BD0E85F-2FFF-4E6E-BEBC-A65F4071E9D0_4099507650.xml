@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>expandAfterMode</key>
+	<integer>0</integer>
+	<key>expanderExceptionsMode</key>
+	<integer>4</integer>
+	<key>name</key>
+	<string>Mashery</string>
+	<key>snippetPlists</key>
+	<array>
+		<dict>
+			<key>abbreviation</key>
+			<string>..muuid</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2014-03-27T23:07:49Z</date>
+			<key>label</key>
+			<string>Calypso: Area UUID</string>
+			<key>modificationDate</key>
+			<date>2015-07-20T22:01:05Z</date>
+			<key>plainText</key>
+			<string>#!/bin/bash
+
+# Load User Profile
+source /users/nwillia1/.profile
+
+# Script Body
+echo -n "${LD_CALYPSO_AREA_UUID}"</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>10DB5634-082D-415F-8EAF-6C8B8AF6977A</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>..mapik</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2014-03-24T19:39:50Z</date>
+			<key>label</key>
+			<string>Calypso: API Key</string>
+			<key>modificationDate</key>
+			<date>2015-07-20T22:00:47Z</date>
+			<key>plainText</key>
+			<string>#!/bin/bash
+
+# Load User Profile
+source /Users/nwillia1/.bash_profile
+
+# Script Body
+echo -n "${LD_CALYPSO_API_3_KEY}"</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>uuidString</key>
+			<string>A53435D0-EC7F-400F-ADAE-C2341308672F</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>..marea</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2014-03-24T20:09:07Z</date>
+			<key>label</key>
+			<string>Calypso: Area ID</string>
+			<key>modificationDate</key>
+			<date>2015-07-20T22:00:52Z</date>
+			<key>plainText</key>
+			<string>#!/bin/bash
+
+# Load User Profile
+source /users/nwillia1/.profile
+
+# Script Body
+echo -n "${LD_CALYPSO_AREA_ID}"</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>uuidString</key>
+			<string>4F1AD308-3624-4935-BF27-90ACA08F5370</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>..mapis</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2014-03-24T19:53:22Z</date>
+			<key>label</key>
+			<string>Calypso: API Secret</string>
+			<key>modificationDate</key>
+			<date>2015-07-20T22:00:56Z</date>
+			<key>plainText</key>
+			<string>#!/bin/bash
+
+# Load User Profile
+source /Users/nwillia1/.profile
+
+# Script Body
+php -r '
+	echo md5($argv[1]);
+' "$LD_CALYPSO_API_3_KEY"</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>uuidString</key>
+			<string>2A6A270D-E36A-4168-A83A-0ED4BF7F1A96</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>..mjira</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2012-11-27T21:43:57Z</date>
+			<key>label</key>
+			<string>Jira Ticket</string>
+			<key>modificationDate</key>
+			<date>2016-12-05T20:45:21Z</date>
+			<key>plainText</key>
+			<string>#!/bin/bash
+
+# echo "&lt;a href=\"http://masheryjira.tibco.com/browse/%clipboard\"&gt;%clipboard&lt;/a&gt;" | textutil -stdin -stdout -format html -convert rtf | pbcopy
+
+echo "https://masheryjira.tibco.com/browse/%clipboard"</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>uuidString</key>
+			<string>D057AB2D-EA28-4DE1-9B27-A74774DFB414</string>
+		</dict>
+	</array>
+	<key>snippetUUIDs</key>
+	<array>
+		<string>10DB5634-082D-415F-8EAF-6C8B8AF6977A</string>
+		<string>A53435D0-EC7F-400F-ADAE-C2341308672F</string>
+		<string>4F1AD308-3624-4935-BF27-90ACA08F5370</string>
+		<string>2A6A270D-E36A-4168-A83A-0ED4BF7F1A96</string>
+		<string>D057AB2D-EA28-4DE1-9B27-A74774DFB414</string>
+	</array>
+	<key>suggestAbbreviations</key>
+	<integer>1</integer>
+	<key>updateFrequency</key>
+	<integer>0</integer>
+	<key>uuidString</key>
+	<string>5BD0E85F-2FFF-4E6E-BEBC-A65F4071E9D0</string>
+	<key>writable</key>
+	<integer>1</integer>
+</dict>
+</plist>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>expandAfterMode</key>
+	<integer>0</integer>
+	<key>expanderExceptionsMode</key>
+	<integer>4</integer>
+	<key>name</key>
+	<string>Documents</string>
+	<key>snippetPlists</key>
+	<array>
+		<dict>
+			<key>abbreviation</key>
+			<string>..class.java</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2011-01-12T23:05:05Z</date>
+			<key>label</key>
+			<string>Java Class</string>
+			<key>modificationDate</key>
+			<date>2011-01-12T23:09:03Z</date>
+			<key>plainText</key>
+			<string>/**
+ * &lt;description&gt;
+ *
+ * @author Nick Williams
+ * @version 1.0.0
+ */
+public class %| {
+	
+}</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>6E1FF772-0F0D-4257-8BE3-FDF8767A5674</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>..xhtml</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2011-01-12T22:53:55Z</date>
+			<key>label</key>
+			<string>XHTML 1.1</string>
+			<key>modificationDate</key>
+			<date>2011-01-12T22:57:15Z</date>
+			<key>plainText</key>
+			<string>&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;
+	&lt;head&gt;
+		&lt;meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /&gt;
+		&lt;title&gt;&lt;/title&gt;
+	&lt;/head&gt;
+	&lt;body&gt;
+		%|
+	&lt;/body&gt;
+&lt;/html&gt;</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>67DBF830-71FF-47F6-AC7C-9F3F30B7C911</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>..html5</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2011-01-12T22:50:18Z</date>
+			<key>label</key>
+			<string>HTML 5</string>
+			<key>modificationDate</key>
+			<date>2011-01-12T22:54:47Z</date>
+			<key>plainText</key>
+			<string>&lt;!DOCTYPE HTML&gt;
+&lt;html lang="en-US"&gt;
+	&lt;head&gt;
+		&lt;meta charset="UTF-8"&gt;
+		&lt;title&gt;&lt;/title&gt;
+	&lt;/head&gt;
+	&lt;body&gt;
+		%|
+	&lt;/body&gt;
+&lt;/html&gt;</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>68AE1731-53BB-4E5B-AE35-0A5D01F1A5D0</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>..class.php</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2011-01-12T23:06:47Z</date>
+			<key>label</key>
+			<string>PHP Class</string>
+			<key>modificationDate</key>
+			<date>2011-01-12T23:09:00Z</date>
+			<key>plainText</key>
+			<string>&lt;?php
+/**
+ * &lt;description&gt;
+ * 
+ * @package &lt;package_name&gt;
+ * @author Nick Williams
+ * @version 1.0.0
+ */
+class %| {
+	
+}
+?&gt;</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>3D84D455-74F1-41DA-8C5C-540E53A670C0</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>..xml</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2013-10-23T20:24:27Z</date>
+			<key>label</key>
+			<string>XML 1.0</string>
+			<key>modificationDate</key>
+			<date>2013-10-23T20:48:34Z</date>
+			<key>plainText</key>
+			<string>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>773CD83E-C603-4ECB-B153-1770E8F6A9FF</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>..jquery</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2011-01-29T00:42:12Z</date>
+			<key>label</key>
+			<string>jQuery Selector</string>
+			<key>modificationDate</key>
+			<date>2011-01-29T00:43:56Z</date>
+			<key>plainText</key>
+			<string>$('');</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>4E4398D4-2CA8-434F-B278-545CE63C180C</string>
+		</dict>
+	</array>
+	<key>snippetUUIDs</key>
+	<array>
+		<string>6E1FF772-0F0D-4257-8BE3-FDF8767A5674</string>
+		<string>67DBF830-71FF-47F6-AC7C-9F3F30B7C911</string>
+		<string>68AE1731-53BB-4E5B-AE35-0A5D01F1A5D0</string>
+		<string>3D84D455-74F1-41DA-8C5C-540E53A670C0</string>
+		<string>773CD83E-C603-4ECB-B153-1770E8F6A9FF</string>
+		<string>4E4398D4-2CA8-434F-B278-545CE63C180C</string>
+	</array>
+	<key>suggestAbbreviations</key>
+	<integer>1</integer>
+	<key>updateFrequency</key>
+	<integer>0</integer>
+	<key>uuidString</key>
+	<string>413B1C6B-136E-484B-A90D-9C10EFD8C582</string>
+	<key>writable</key>
+	<integer>1</integer>
+</dict>
+</plist>

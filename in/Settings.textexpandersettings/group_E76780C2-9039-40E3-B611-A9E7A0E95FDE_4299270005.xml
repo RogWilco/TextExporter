@@ -1,0 +1,986 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>expandAfterMode</key>
+	<integer>0</integer>
+	<key>expanderExceptionsMode</key>
+	<integer>4</integer>
+	<key>name</key>
+	<string>General</string>
+	<key>snippetPlists</key>
+	<array>
+		<dict>
+			<key>abbreviation</key>
+			<string>..ftts</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2014-08-26T23:40:43Z</date>
+			<key>label</key>
+			<string>Format: Tabs to Spaces</string>
+			<key>modificationDate</key>
+			<date>2014-08-27T00:30:01Z</date>
+			<key>plainText</key>
+			<string>#!/bin/bash
+pbpaste | expand -t 4</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>uuidString</key>
+			<string>48A6EE67-DCF8-407A-B8CA-FA7DA153EBBD</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>..fstt</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2014-08-26T23:40:43Z</date>
+			<key>label</key>
+			<string>Format: Spaces to Tabs</string>
+			<key>modificationDate</key>
+			<date>2014-08-27T00:29:09Z</date>
+			<key>plainText</key>
+			<string>#!/bin/bash
+pbpaste | unexpand -t 4</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>uuidString</key>
+			<string>5135C9BC-F907-4DDE-A7D3-052087F3159D</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>..fjson</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2014-08-26T23:40:43Z</date>
+			<key>label</key>
+			<string>Format: JSON</string>
+			<key>modificationDate</key>
+			<date>2016-01-28T01:19:16Z</date>
+			<key>plainText</key>
+			<string>#!/bin/bash
+echo `pbpaste` | python -m json.tool | unexpand -t 4
+#echo `pbpaste` | ppjson | unexpand -t 4</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>uuidString</key>
+			<string>1A17449A-D17D-4AA2-9BBE-447DFC5BAD26</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>//h2</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2013-09-26T20:19:35Z</date>
+			<key>label</key>
+			<string>// Heading: H2 Div</string>
+			<key>modificationDate</key>
+			<date>2014-01-02T17:21:39Z</date>
+			<key>plainText</key>
+			<string>// ---------------------------------------------------------------------------</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>9EEE6557-55E2-4360-803A-BBC10B13204A</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>//hh2</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2013-09-26T20:19:35Z</date>
+			<key>label</key>
+			<string>// Heading: H2</string>
+			<key>modificationDate</key>
+			<date>2014-01-02T17:21:57Z</date>
+			<key>plainText</key>
+			<string>// ---------------------------------------------------------------------------
+// %|
+// ---------------------------------------------------------------------------</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>BF4D5A97-DDD4-4F18-9DA7-ECB22F94075D</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>//h1</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2013-09-26T20:19:35Z</date>
+			<key>label</key>
+			<string>// Heading: H1 Div</string>
+			<key>modificationDate</key>
+			<date>2014-01-02T17:21:20Z</date>
+			<key>plainText</key>
+			<string>// ===========================================================================</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>7F0EEE52-8F72-4922-ABA6-DEE489AADBAE</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>--h2</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2013-09-26T20:19:35Z</date>
+			<key>label</key>
+			<string> Heading: H2 Div</string>
+			<key>modificationDate</key>
+			<date>2017-02-28T22:20:14Z</date>
+			<key>plainText</key>
+			<string>------------------------------------------------------------------------------</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>7FD2A774-1540-49CF-9878-4BB65936285E</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>#h2</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2013-09-26T20:19:35Z</date>
+			<key>label</key>
+			<string># Heading: H2 Div</string>
+			<key>modificationDate</key>
+			<date>2014-01-02T17:21:11Z</date>
+			<key>plainText</key>
+			<string># ----------------------------------------------------------------------------</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>1BAC7E59-25B6-4C70-B5E1-634FCE590386</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>#h1</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2013-09-26T20:19:35Z</date>
+			<key>label</key>
+			<string># Heading: H1 Div</string>
+			<key>modificationDate</key>
+			<date>2014-01-02T17:20:15Z</date>
+			<key>plainText</key>
+			<string># ============================================================================</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>DEF39C90-78AB-4455-8D24-01C8E79386A4</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>#hh1</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2013-09-26T20:19:35Z</date>
+			<key>label</key>
+			<string># Heading: H1</string>
+			<key>modificationDate</key>
+			<date>2014-01-02T17:20:40Z</date>
+			<key>plainText</key>
+			<string># ============================================================================
+# %|
+# ============================================================================</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>3F7882AF-A784-4F63-BEDF-0265B5AA73D6</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>..base</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2013-05-23T03:59:53Z</date>
+			<key>label</key>
+			<string>Encode: Base64</string>
+			<key>modificationDate</key>
+			<date>2016-05-03T22:59:00Z</date>
+			<key>plainText</key>
+			<string>#!/usr/bin/php
+&lt;?php
+echo base64_encode(exec('pbpaste'));</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>uuidString</key>
+			<string>8477D644-75D7-4307-B41E-0C936CFE8A23</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>..md5</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2011-02-02T22:19:57Z</date>
+			<key>label</key>
+			<string>Hash: MD5</string>
+			<key>modificationDate</key>
+			<date>2016-11-22T21:30:07Z</date>
+			<key>plainText</key>
+			<string>#!/usr/bin/php
+&lt;?php
+echo md5(`pbpaste`);</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>uuidString</key>
+			<string>959C40B2-A016-421F-A639-8A793CE62583</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>..sha1</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2012-02-29T21:40:26Z</date>
+			<key>label</key>
+			<string>Hash: SHA1</string>
+			<key>modificationDate</key>
+			<date>2016-11-22T21:30:21Z</date>
+			<key>plainText</key>
+			<string>#!/usr/bin/php
+&lt;?php
+echo sha1(`pbpaste`);</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>uuidString</key>
+			<string>47B8AA9C-E1A6-45ED-8850-EC65CF5407CE</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>..utime</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2012-02-24T19:17:45Z</date>
+			<key>label</key>
+			<string>Timestamp: UNIX</string>
+			<key>modificationDate</key>
+			<date>2015-05-28T00:46:05Z</date>
+			<key>plainText</key>
+			<string>#!/usr/bin/php
+&lt;?php echo time();</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>uuidString</key>
+			<string>88DE8986-41EF-46F9-A7A1-373EC782758B</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>..time</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2011-01-12T22:40:04Z</date>
+			<key>label</key>
+			<string>Timestamp: Time</string>
+			<key>modificationDate</key>
+			<date>2012-02-29T21:41:04Z</date>
+			<key>plainText</key>
+			<string>%1I:%M %p</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>BD2CD762-0225-4427-A348-62268867EBBC</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>..date</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2011-01-12T22:40:04Z</date>
+			<key>label</key>
+			<string>Timestamp: Date</string>
+			<key>modificationDate</key>
+			<date>2012-02-29T21:40:58Z</date>
+			<key>plainText</key>
+			<string>%B %e, %Y</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>08CCD12F-9561-4B59-B80C-E61A415ACD9F</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>..mdy</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2014-01-02T17:13:38Z</date>
+			<key>label</key>
+			<string>Timestamp: M/D/Y</string>
+			<key>modificationDate</key>
+			<date>2014-01-02T17:14:00Z</date>
+			<key>plainText</key>
+			<string>%m/%d/%Y</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>468600B8-CCD1-4372-A479-E0FEF7AEB353</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>..ymd</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2014-01-02T17:12:21Z</date>
+			<key>label</key>
+			<string>Timestamp: Y-M-D</string>
+			<key>modificationDate</key>
+			<date>2015-06-25T21:06:57Z</date>
+			<key>plainText</key>
+			<string>%Y-%m-%d</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>00C9E630-617C-4B09-B7FF-53AAD6515733</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>..bit</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2011-02-02T01:03:39Z</date>
+			<key>label</key>
+			<string>Bit.ly</string>
+			<key>modificationDate</key>
+			<date>2011-03-18T22:22:09Z</date>
+			<key>plainText</key>
+			<string>set the ClipURL to (the clipboard as string)
+
+ignoring case
+	if ((characters 1 through 4 of ClipURL as string) is not "http") then
+		return "Malformed URL."
+	else
+		set curlCMD to ¬
+			"curl --stderr /dev/null \"http://api.bit.ly/v3/shorten?login=rogwilco&amp;apiKey=R_87c8a48578cc138615ea32bf472ebd3e&amp;format=txt&amp;uri=" &amp; ClipURL &amp; "\""
+
+		-- Run the script and get the result:
+		set tinyURL to (do shell script curlCMD)
+
+		return tinyURL
+	end if
+end ignoring
+</string>
+			<key>snippetType</key>
+			<integer>2</integer>
+			<key>uuidString</key>
+			<string>15491DC6-C649-4333-A2C4-37B51219B40E</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>..apache.restart</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2011-04-04T16:58:32Z</date>
+			<key>label</key>
+			<string>Apache: Restart</string>
+			<key>modificationDate</key>
+			<date>2011-04-04T16:58:52Z</date>
+			<key>plainText</key>
+			<string>sudo /usr/sbin/apachectl restart</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>C4F78DDF-3560-44A1-B83B-89256D58C72B</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>..i.jquery</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2014-02-05T21:47:29Z</date>
+			<key>label</key>
+			<string>Inject: jQuery</string>
+			<key>modificationDate</key>
+			<date>2014-02-05T21:49:27Z</date>
+			<key>plainText</key>
+			<string>var jq = document.createElement('script');
+jq.src = "//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js";
+document.getElementsByTagName('head')[0].appendChild(jq);
+// ... give time for script to load, then type.
+jQuery.noConflict();</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>8230B1F9-B94F-4869-B9F4-0B6DEA0D8C07</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>..putime</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2012-02-24T19:17:45Z</date>
+			<key>label</key>
+			<string>Timestamp Clip: UNIX</string>
+			<key>modificationDate</key>
+			<date>2016-05-03T22:56:51Z</date>
+			<key>plainText</key>
+			<string>#!/usr/bin/php
+&lt;?php
+print(strtotime(exec('pbpaste')));
+</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>uuidString</key>
+			<string>1D927935-CE6B-42DE-8CE5-B086E77E342D</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>..tymd</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2014-01-02T17:12:21Z</date>
+			<key>label</key>
+			<string>Timestamp: Y-M-D H:M:S</string>
+			<key>modificationDate</key>
+			<date>2015-06-25T21:06:06Z</date>
+			<key>plainText</key>
+			<string>%Y-%m-%d %H:%M:%S</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>0D314A61-2DA2-4759-8B93-C3253B7FC5D0</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>..uuid</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2011-02-02T22:19:57Z</date>
+			<key>label</key>
+			<string>Generate: UUID</string>
+			<key>modificationDate</key>
+			<date>2015-08-17T19:03:14Z</date>
+			<key>plainText</key>
+			<string>#!/bin/bash
+
+uuid()
+{
+    local N B C='89ab'
+
+    for (( N=0; N &lt; 16; ++N ))
+    do
+        B=$(( $RANDOM%256 ))
+
+        case $N in
+            6)
+                printf '4%x' $(( B%16 ))
+                ;;
+            8)
+                printf '%c%x' ${C:$RANDOM%${#C}:1} $(( B%16 ))
+                ;;
+            3 | 5 | 7 | 9)
+                printf '%02x-' $B
+                ;;
+            *)
+                printf '%02x' $B
+                ;;
+        esac
+    done
+}
+
+uuid</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>uuidString</key>
+			<string>9ACDA149-3FA6-4FFE-89A7-C648A69643D7</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>..shrug</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2015-12-07T21:48:21Z</date>
+			<key>label</key>
+			<string>ASCII: Shrug</string>
+			<key>modificationDate</key>
+			<date>2015-12-07T21:48:45Z</date>
+			<key>plainText</key>
+			<string>¯\_(ツ)_/¯</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>0F137E47-9225-40BE-93C4-286B9A0D25FC</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>..trackfedex</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2015-12-09T20:50:33Z</date>
+			<key>label</key>
+			<string>Tracking URL: FedEx</string>
+			<key>modificationDate</key>
+			<date>2015-12-09T20:53:48Z</date>
+			<key>plainText</key>
+			<string>#!/bin/bash
+
+echo "http://www.fedex.com/Tracking?action=track&amp;language=english&amp;cntry_code=us&amp;initial=x&amp;tracknumbers="
+pbpaste</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>uuidString</key>
+			<string>EFA1C3F3-C0FA-48D4-AA7C-18A0C9224EC2</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>..trackups</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2015-12-09T20:50:33Z</date>
+			<key>label</key>
+			<string>Tracking URL: UPS</string>
+			<key>modificationDate</key>
+			<date>2015-12-09T20:56:15Z</date>
+			<key>plainText</key>
+			<string>#!/bin/bash
+
+echo "http://wwwapps.ups.com/etracking/tracking.cgi?tracknum="
+pbpaste</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>uuidString</key>
+			<string>182399B5-2AA9-4E4E-B9E5-C9B752AA5051</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>..trackusps</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2015-12-09T20:50:33Z</date>
+			<key>label</key>
+			<string>Tracking URL: USPS</string>
+			<key>modificationDate</key>
+			<date>2015-12-09T20:56:12Z</date>
+			<key>plainText</key>
+			<string>#!/bin/bash
+
+echo "http://tools.usps.com/go/TrackConfirmAction_input?qtc_tLabels1="
+pbpaste</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>uuidString</key>
+			<string>13D40313-1B8D-4944-95EE-27202EDC20E1</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>..lenny</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2015-12-07T21:48:21Z</date>
+			<key>label</key>
+			<string>ASCII: Lenny</string>
+			<key>modificationDate</key>
+			<date>2016-05-10T21:59:20Z</date>
+			<key>plainText</key>
+			<string>( ͡° ͜ʖ ͡°)</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>77F6D521-E580-45DB-B4D1-C6A92DB7354B</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>..lc</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2016-05-03T22:32:59Z</date>
+			<key>label</key>
+			<string>Transformation: Lowercase</string>
+			<key>modificationDate</key>
+			<date>2016-05-03T23:00:07Z</date>
+			<key>plainText</key>
+			<string>#!/usr/bin/php
+&lt;?php
+echo strtolower(exec('pbpaste'));</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>uuidString</key>
+			<string>F1F798DC-15B2-4245-96AE-54B09E737FBA</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>..uc</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2016-05-03T22:32:59Z</date>
+			<key>label</key>
+			<string>Transformation: Uppercase</string>
+			<key>modificationDate</key>
+			<date>2016-05-03T22:59:42Z</date>
+			<key>plainText</key>
+			<string>#!/usr/bin/php
+&lt;?php
+echo strtoupper(exec('pbpaste'));</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>uuidString</key>
+			<string>5643FEEE-7B75-42CA-810D-FB3628CEE275</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>..wc</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2016-05-03T22:32:59Z</date>
+			<key>label</key>
+			<string>Transformation: Word Case</string>
+			<key>modificationDate</key>
+			<date>2016-05-03T23:00:50Z</date>
+			<key>plainText</key>
+			<string>#!/usr/bin/php
+&lt;?php
+echo ucwords(exec('pbpaste'));</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>uuidString</key>
+			<string>8E57324A-D98F-4916-B504-B9F881A3EC23</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>.._</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2016-05-03T22:32:59Z</date>
+			<key>label</key>
+			<string>Transformation: Spaces to Underscore</string>
+			<key>modificationDate</key>
+			<date>2016-05-03T23:03:11Z</date>
+			<key>plainText</key>
+			<string>#!/usr/bin/php
+&lt;?php
+echo str_replace(exec('pbpaste'), ' ', '_');</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>uuidString</key>
+			<string>D0D810CD-E7C2-46D7-8A63-3D0D4CE2E79C</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>..amzn</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2015-12-09T20:50:33Z</date>
+			<key>label</key>
+			<string>URL: Amazon</string>
+			<key>modificationDate</key>
+			<date>2016-05-05T18:14:14Z</date>
+			<key>plainText</key>
+			<string>#!/bin/bash
+
+echo "https://amzn.com/"
+pbpaste</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>uuidString</key>
+			<string>D7D48CDF-DA6D-4310-AC99-FB6AEA6D6E59</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>..steam</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2015-12-09T20:50:33Z</date>
+			<key>label</key>
+			<string>URL: Steam "Add Me" Link</string>
+			<key>modificationDate</key>
+			<date>2016-05-16T22:29:04Z</date>
+			<key>plainText</key>
+			<string>steam://friends/add/76561197984098800</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>4C3A08E6-D73D-4135-A48E-4FFBBA0BB0BD</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>..fsphp</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2014-08-26T23:40:43Z</date>
+			<key>label</key>
+			<string>Format: Serialized PHP</string>
+			<key>modificationDate</key>
+			<date>2016-11-22T21:26:41Z</date>
+			<key>plainText</key>
+			<string>#!/usr/bin/php
+&lt;?php
+print_r(unserialize(`pbpaste`));
+</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>uuidString</key>
+			<string>A529A593-A873-47A3-8B49-3B3054678EEB</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>..sha256</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2012-02-29T21:40:26Z</date>
+			<key>label</key>
+			<string>Hash: SHA256</string>
+			<key>modificationDate</key>
+			<date>2016-11-22T21:30:25Z</date>
+			<key>plainText</key>
+			<string>#!/usr/bin/php
+&lt;?php
+echo hash('sha256', `pbpaste`);</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>uuidString</key>
+			<string>DAA3D8DE-5F65-4A7B-8E91-A4EF534B5344</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>..sha512</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2012-02-29T21:40:26Z</date>
+			<key>label</key>
+			<string>Hash: SHA512</string>
+			<key>modificationDate</key>
+			<date>2016-11-22T21:31:06Z</date>
+			<key>plainText</key>
+			<string>#!/usr/bin/php
+&lt;?php
+echo hash('sha512', `pbpaste`);</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>uuidString</key>
+			<string>A1301309-D4F3-4FE7-B12E-157D2573FDBF</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>..crc32</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2012-02-29T21:40:26Z</date>
+			<key>label</key>
+			<string>Hash: CRC32</string>
+			<key>modificationDate</key>
+			<date>2016-11-22T21:34:19Z</date>
+			<key>plainText</key>
+			<string>#!/usr/bin/php
+&lt;?php
+echo hash('crc32', `pbpaste`);</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>uuidString</key>
+			<string>81EE2739-9744-49D9-98F2-AA4C312CD021</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>..e"</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2017-02-11T00:18:38Z</date>
+			<key>label</key>
+			<string>Escape: Double Quotes</string>
+			<key>modificationDate</key>
+			<date>2017-02-11T00:40:22Z</date>
+			<key>plainText</key>
+			<string>#!/usr/bin/php
+&lt;?php
+
+$clip = &lt;&lt;&lt;'EOT'
+%clipboard
+EOT;
+
+echo addslashes($clip);</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>uuidString</key>
+			<string>BB3972AC-AFCF-4E2C-840A-B615935EAF6B</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>..fxml</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2014-08-26T23:40:43Z</date>
+			<key>label</key>
+			<string>Format: XML</string>
+			<key>modificationDate</key>
+			<date>2014-08-27T00:31:01Z</date>
+			<key>plainText</key>
+			<string>#!/bin/bash
+echo `pbpaste` | xmllint --format - | unexpand -t 2</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>uuidString</key>
+			<string>0A5D9D0F-A9E3-4888-8FBC-A64DF48FF7EF</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>//hh1</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2013-09-26T20:19:35Z</date>
+			<key>label</key>
+			<string>// Heading: H1</string>
+			<key>modificationDate</key>
+			<date>2014-01-02T17:21:35Z</date>
+			<key>plainText</key>
+			<string>// ===========================================================================
+// %|
+// ===========================================================================</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>DDE49E80-1FED-4A42-A3DC-8D3522AB5708</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>#hh2</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2013-09-26T20:19:35Z</date>
+			<key>label</key>
+			<string># Heading: H2</string>
+			<key>modificationDate</key>
+			<date>2014-01-02T17:21:05Z</date>
+			<key>plainText</key>
+			<string># ----------------------------------------------------------------------------
+# %|
+# ----------------------------------------------------------------------------</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>47FC1F36-52BD-4DA5-A3C5-5F31D19AE8AF</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>==h1</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2013-09-26T20:19:35Z</date>
+			<key>label</key>
+			<string> Heading: H1 Div</string>
+			<key>modificationDate</key>
+			<date>2017-02-28T22:19:39Z</date>
+			<key>plainText</key>
+			<string>==============================================================================</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>6F980068-264E-4456-B5E4-623FD5DEFB98</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>..shebang</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2018-01-12T00:11:39Z</date>
+			<key>label</key>
+			<string>Shell Script: Shebang (Darwin)</string>
+			<key>modificationDate</key>
+			<date>2018-01-12T00:12:25Z</date>
+			<key>plainText</key>
+			<string>#!/usr/bin/env </string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>0567A3A2-22A2-40CC-BB17-29A6DBD3F77A</string>
+		</dict>
+	</array>
+	<key>snippetUUIDs</key>
+	<array>
+		<string>48A6EE67-DCF8-407A-B8CA-FA7DA153EBBD</string>
+		<string>5135C9BC-F907-4DDE-A7D3-052087F3159D</string>
+		<string>1A17449A-D17D-4AA2-9BBE-447DFC5BAD26</string>
+		<string>9EEE6557-55E2-4360-803A-BBC10B13204A</string>
+		<string>BF4D5A97-DDD4-4F18-9DA7-ECB22F94075D</string>
+		<string>7F0EEE52-8F72-4922-ABA6-DEE489AADBAE</string>
+		<string>7FD2A774-1540-49CF-9878-4BB65936285E</string>
+		<string>1BAC7E59-25B6-4C70-B5E1-634FCE590386</string>
+		<string>DEF39C90-78AB-4455-8D24-01C8E79386A4</string>
+		<string>3F7882AF-A784-4F63-BEDF-0265B5AA73D6</string>
+		<string>8477D644-75D7-4307-B41E-0C936CFE8A23</string>
+		<string>959C40B2-A016-421F-A639-8A793CE62583</string>
+		<string>47B8AA9C-E1A6-45ED-8850-EC65CF5407CE</string>
+		<string>88DE8986-41EF-46F9-A7A1-373EC782758B</string>
+		<string>BD2CD762-0225-4427-A348-62268867EBBC</string>
+		<string>08CCD12F-9561-4B59-B80C-E61A415ACD9F</string>
+		<string>468600B8-CCD1-4372-A479-E0FEF7AEB353</string>
+		<string>00C9E630-617C-4B09-B7FF-53AAD6515733</string>
+		<string>15491DC6-C649-4333-A2C4-37B51219B40E</string>
+		<string>C4F78DDF-3560-44A1-B83B-89256D58C72B</string>
+		<string>8230B1F9-B94F-4869-B9F4-0B6DEA0D8C07</string>
+		<string>1D927935-CE6B-42DE-8CE5-B086E77E342D</string>
+		<string>0D314A61-2DA2-4759-8B93-C3253B7FC5D0</string>
+		<string>9ACDA149-3FA6-4FFE-89A7-C648A69643D7</string>
+		<string>0F137E47-9225-40BE-93C4-286B9A0D25FC</string>
+		<string>EFA1C3F3-C0FA-48D4-AA7C-18A0C9224EC2</string>
+		<string>182399B5-2AA9-4E4E-B9E5-C9B752AA5051</string>
+		<string>13D40313-1B8D-4944-95EE-27202EDC20E1</string>
+		<string>77F6D521-E580-45DB-B4D1-C6A92DB7354B</string>
+		<string>F1F798DC-15B2-4245-96AE-54B09E737FBA</string>
+		<string>5643FEEE-7B75-42CA-810D-FB3628CEE275</string>
+		<string>8E57324A-D98F-4916-B504-B9F881A3EC23</string>
+		<string>D0D810CD-E7C2-46D7-8A63-3D0D4CE2E79C</string>
+		<string>D7D48CDF-DA6D-4310-AC99-FB6AEA6D6E59</string>
+		<string>4C3A08E6-D73D-4135-A48E-4FFBBA0BB0BD</string>
+		<string>A529A593-A873-47A3-8B49-3B3054678EEB</string>
+		<string>DAA3D8DE-5F65-4A7B-8E91-A4EF534B5344</string>
+		<string>A1301309-D4F3-4FE7-B12E-157D2573FDBF</string>
+		<string>81EE2739-9744-49D9-98F2-AA4C312CD021</string>
+		<string>BB3972AC-AFCF-4E2C-840A-B615935EAF6B</string>
+		<string>0A5D9D0F-A9E3-4888-8FBC-A64DF48FF7EF</string>
+		<string>DDE49E80-1FED-4A42-A3DC-8D3522AB5708</string>
+		<string>47FC1F36-52BD-4DA5-A3C5-5F31D19AE8AF</string>
+		<string>6F980068-264E-4456-B5E4-623FD5DEFB98</string>
+		<string>0567A3A2-22A2-40CC-BB17-29A6DBD3F77A</string>
+	</array>
+	<key>suggestAbbreviations</key>
+	<integer>1</integer>
+	<key>updateFrequency</key>
+	<integer>0</integer>
+	<key>uuidString</key>
+	<string>E76780C2-9039-40E3-B611-A9E7A0E95FDE</string>
+	<key>writable</key>
+	<integer>1</integer>
+</dict>
+</plist>

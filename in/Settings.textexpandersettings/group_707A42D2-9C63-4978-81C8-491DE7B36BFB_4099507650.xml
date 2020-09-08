@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>expandAfterMode</key>
+	<integer>0</integer>
+	<key>expanderExceptionsMode</key>
+	<integer>4</integer>
+	<key>name</key>
+	<string>Fillers</string>
+	<key>snippetPlists</key>
+	<array>
+		<dict>
+			<key>abbreviation</key>
+			<string>..filler.html</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2011-01-29T00:08:10Z</date>
+			<key>label</key>
+			<string>HTML Filler</string>
+			<key>modificationDate</key>
+			<date>2011-01-31T17:22:50Z</date>
+			<key>plainText</key>
+			<string>&lt;h1&gt;Heading One&lt;/h1&gt;
+&lt;p&gt;
+	In condimentum orci id nisl volutpat bibendum. Quisque commodo hendrerit
+	lorem quis egestas. Maecenas quis tortor arcu. Vivamus rutrum nunc non
+	neque consectetur quis placerat neque lobortis. Nam vestibulum, arcu
+	sodales feugiat consectetur, nisl orci bibendum elit, eu euismod magna
+	sapien ut nibh. Donec semper quam scelerisque tortor dictum gravida.
+&lt;/p&gt;
+&lt;h2&gt;Heading Two&lt;/h2&gt;
+&lt;ul&gt;
+	&lt;li&gt;One&lt;/li&gt;
+	&lt;li&gt;Two&lt;/li&gt;
+	&lt;li&gt;Three&lt;/li&gt;
+	&lt;li&gt;Four&lt;/li&gt;
+	&lt;li&gt;Five&lt;/li&gt;
+	&lt;li&gt;Six&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Heading Three&lt;/h3&gt;
+&lt;ol&gt;
+	&lt;li&gt;Unus&lt;/li&gt;
+	&lt;li&gt;Duo&lt;/li&gt;
+	&lt;li&gt;Tres&lt;/li&gt;
+	&lt;li&gt;Quattor&lt;/li&gt;
+	&lt;li&gt;Qinque&lt;/li&gt;
+	&lt;li&gt;Sex&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4&gt;Heading Four&lt;/h4&gt;
+&lt;p&gt;
+	Suspendisse dictum feugiat nisl ut dapibus. Mauris iaculis porttitor
+	posuere. Praesent id metus massa, ut blandit odio. Proin quis tortor orci.
+	Etiam at risus et.
+&lt;p&gt;
+&lt;blockquote&gt;
+	Blockquote Text: Nullam in dui mauris. Vivamus hendrerit arcu sed erat
+	molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh
+	porttitor. Ut in nulla enim.
+&lt;/blockquote&gt;
+&lt;h5&gt;Heading Five&lt;/h5&gt;
+&lt;p&gt;
+	Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In
+	condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla
+	fringilla, orci ac.
+&lt;/p&gt;
+&lt;table&gt;
+	&lt;caption&gt;Table Caption&lt;/caption&gt;
+	&lt;thead&gt;
+		&lt;tr&gt;
+			&lt;th&gt;English&lt;/th&gt;
+			&lt;th&gt;Latin&lt;/th&gt;
+			&lt;th&gt;German&lt;/th&gt;
+		&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tfoot&gt;
+		&lt;tr&gt;
+			&lt;td&gt;(english)&lt;/td&gt;
+			&lt;td&gt;(latin)&lt;/td&gt;
+			&lt;td&gt;(german)&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tfoot&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td&gt;One&lt;/td&gt;
+			&lt;td&gt;Unus&lt;/td&gt;
+			&lt;td&gt;Eins&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Two&lt;/td&gt;
+			&lt;td&gt;Duo&lt;/td&gt;
+			&lt;td&gt;Zwei&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Three&lt;/td&gt;
+			&lt;td&gt;Tres&lt;/td&gt;
+			&lt;td&gt;Drei&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Four&lt;/td&gt;
+			&lt;td&gt;Quattor&lt;/td&gt;
+			&lt;td&gt;Vier&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Five&lt;/td&gt;
+			&lt;td&gt;Qinque&lt;/td&gt;
+			&lt;td&gt;Fünf&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Six&lt;/td&gt;
+			&lt;td&gt;Sex&lt;/td&gt;
+			&lt;td&gt;Sechs&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Seven&lt;/td&gt;
+			&lt;td&gt;Septem&lt;/td&gt;
+			&lt;td&gt;Sieben&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Eight&lt;/td&gt;
+			&lt;td&gt;Octo&lt;/td&gt;
+			&lt;td&gt;Acht&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Nine&lt;/td&gt;
+			&lt;td&gt;Novem&lt;/td&gt;
+			&lt;td&gt;Neun&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Ten&lt;/td&gt;
+			&lt;td&gt;Decem&lt;/td&gt;
+			&lt;td&gt;Zehn&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h6&gt;Heading Six&lt;/h6&gt;
+&lt;form&gt;
+	&lt;a href="#"&gt;&lt;img src="http://www.google.ca/intl/en_com/images/srpr/logo1w.png" /&gt;&lt;/a&gt;
+	&lt;fieldset&gt;
+		&lt;legend&gt;Basic Input Fields&lt;/legend&gt;
+		&lt;label for="input-text"&gt;Text&lt;/label&gt;
+		&lt;input id="input-text" type="text" name="input-text" value="text input" /&gt;
+		&lt;br /&gt;
+		&lt;label for="input-password"&gt;Password&lt;/label&gt;
+		&lt;input id="input-password" type="password" name="input-password" value="" /&gt;
+		&lt;br /&gt;
+		&lt;label for="input-textarea"&gt;Textarea&lt;/label&gt;
+		&lt;textarea id="input-textarea" name="input-textarea"&gt;
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+			in.
+		&lt;/textarea&gt;
+		&lt;br /&gt;
+		&lt;label for="input-radio"&gt;Radio&lt;/label&gt;
+		&lt;input id="input-radio" type="radio" name="radio" value="0" /&gt;
+		&lt;br /&gt;
+		&lt;label for="input-checkbox"&gt;Checkbox&lt;/label&gt;
+		&lt;input id="input-checkbox" type="checkbox" name="input-checkbox" value="0" /&gt;
+		&lt;br /&gt;
+		&lt;input type="reset" value="Reset" /&gt;
+		&lt;input type="button" value="Button" /&gt;
+		&lt;input type="submit" value="Submit" /&gt;
+	&lt;/fieldset&gt;
+&lt;/form&gt;</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>97FC90F2-5257-4EF3-A2F2-7B4DD613AC28</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>..ol.html</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2011-01-31T17:04:16Z</date>
+			<key>label</key>
+			<string>HTML Filler (One Line)</string>
+			<key>modificationDate</key>
+			<date>2011-01-31T17:29:20Z</date>
+			<key>plainText</key>
+			<string>&lt;h1&gt;Heading One&lt;/h1&gt; &lt;p&gt; In condimentum orci id nisl volutpat bibendum. Quisque commodo hendrerit lorem quis egestas. Maecenas quis tortor arcu. Vivamus rutrum nunc non neque consectetur quis placerat neque lobortis. Nam vestibulum, arcu sodales feugiat consectetur, nisl orci bibendum elit, eu euismod magna sapien ut nibh. Donec semper quam scelerisque tortor dictum gravida. &lt;/p&gt; &lt;h2&gt;Heading Two&lt;/h2&gt; &lt;ul&gt; &lt;li&gt;One&lt;/li&gt; &lt;li&gt;Two&lt;/li&gt; &lt;li&gt;Three&lt;/li&gt; &lt;li&gt;Four&lt;/li&gt; &lt;li&gt;Five&lt;/li&gt; &lt;li&gt;Six&lt;/li&gt; &lt;/ul&gt; &lt;h3&gt;Heading Three&lt;/h3&gt; &lt;ol&gt; &lt;li&gt;Unus&lt;/li&gt; &lt;li&gt;Duo&lt;/li&gt; &lt;li&gt;Tres&lt;/li&gt; &lt;li&gt;Quattor&lt;/li&gt; &lt;li&gt;Qinque&lt;/li&gt; &lt;li&gt;Sex&lt;/li&gt; &lt;/ol&gt; &lt;h4&gt;Heading Four&lt;/h4&gt; &lt;p&gt; Suspendisse dictum feugiat nisl ut dapibus. Mauris iaculis porttitor posuere. Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et. &lt;p&gt; &lt;blockquote&gt; Blockquote Text: Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. &lt;/blockquote&gt; &lt;h5&gt;Heading Five&lt;/h5&gt; &lt;p&gt; Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac. &lt;/p&gt; &lt;table&gt; &lt;caption&gt;Table Caption&lt;/caption&gt; &lt;thead&gt; &lt;tr&gt; &lt;th&gt;English&lt;/th&gt; &lt;th&gt;Latin&lt;/th&gt; &lt;th&gt;German&lt;/th&gt; &lt;/tr&gt; &lt;/thead&gt; &lt;tfoot&gt; &lt;tr&gt; &lt;td&gt;(english)&lt;/td&gt; &lt;td&gt;(latin)&lt;/td&gt; &lt;td&gt;(german)&lt;/td&gt; &lt;/tr&gt; &lt;/tfoot&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td&gt;One&lt;/td&gt; &lt;td&gt;Unus&lt;/td&gt; &lt;td&gt;Eins&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Two&lt;/td&gt; &lt;td&gt;Duo&lt;/td&gt; &lt;td&gt;Zwei&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Three&lt;/td&gt; &lt;td&gt;Tres&lt;/td&gt; &lt;td&gt;Drei&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Four&lt;/td&gt; &lt;td&gt;Quattor&lt;/td&gt; &lt;td&gt;Vier&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Five&lt;/td&gt; &lt;td&gt;Qinque&lt;/td&gt; &lt;td&gt;Fünf&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Six&lt;/td&gt; &lt;td&gt;Sex&lt;/td&gt; &lt;td&gt;Sechs&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Seven&lt;/td&gt; &lt;td&gt;Septem&lt;/td&gt; &lt;td&gt;Sieben&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Eight&lt;/td&gt; &lt;td&gt;Octo&lt;/td&gt; &lt;td&gt;Acht&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Nine&lt;/td&gt; &lt;td&gt;Novem&lt;/td&gt; &lt;td&gt;Neun&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Ten&lt;/td&gt; &lt;td&gt;Decem&lt;/td&gt; &lt;td&gt;Zehn&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; &lt;h6&gt;Heading Six&lt;/h6&gt; &lt;form&gt; &lt;a href="#"&gt;&lt;img src="http://www.google.ca/intl/en_com/images/srpr/logo1w.png" /&gt;&lt;/a&gt; &lt;fieldset&gt; &lt;legend&gt;Basic Input Fields&lt;/legend&gt; &lt;label for="input-text"&gt;Text&lt;/label&gt; &lt;input id="input-text" type="text" name="input-text" value="text input" /&gt; &lt;br /&gt; &lt;label for="input-password"&gt;Password&lt;/label&gt; &lt;input id="input-password" type="password" name="input-password" value="" /&gt; &lt;br /&gt; &lt;label for="input-textarea"&gt;Textarea&lt;/label&gt; &lt;textarea id="input-textarea" name="input-textarea"&gt; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in. &lt;/textarea&gt; &lt;br /&gt; &lt;label for="input-radio"&gt;Radio&lt;/label&gt; &lt;input id="input-radio" type="radio" name="radio" value="0" /&gt; &lt;br /&gt; &lt;label for="input-checkbox"&gt;Checkbox&lt;/label&gt; &lt;input id="input-checkbox" type="checkbox" name="input-checkbox" value="0" /&gt; &lt;br /&gt; &lt;input type="reset" value="Reset" /&gt; &lt;input type="button" value="Button" /&gt; &lt;input type="submit" value="Submit" /&gt; &lt;/fieldset&gt; &lt;/form&gt;</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>60FE041F-ED8A-4ADB-A3EE-F41AFCE5A5BB</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>..lorem</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2011-01-29T00:39:29Z</date>
+			<key>label</key>
+			<string>Lorem Ipsum</string>
+			<key>modificationDate</key>
+			<date>2011-01-29T00:40:01Z</date>
+			<key>plainText</key>
+			<string>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>FEDEF59F-D066-4711-9A1C-7B8247E993C8</string>
+		</dict>
+	</array>
+	<key>snippetUUIDs</key>
+	<array>
+		<string>97FC90F2-5257-4EF3-A2F2-7B4DD613AC28</string>
+		<string>60FE041F-ED8A-4ADB-A3EE-F41AFCE5A5BB</string>
+		<string>FEDEF59F-D066-4711-9A1C-7B8247E993C8</string>
+	</array>
+	<key>suggestAbbreviations</key>
+	<integer>1</integer>
+	<key>updateFrequency</key>
+	<integer>0</integer>
+	<key>uuidString</key>
+	<string>707A42D2-9C63-4978-81C8-491DE7B36BFB</string>
+	<key>writable</key>
+	<integer>1</integer>
+</dict>
+</plist>

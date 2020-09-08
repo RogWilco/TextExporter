@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>expandAfterMode</key>
+	<integer>0</integer>
+	<key>expanderExceptionsMode</key>
+	<integer>4</integer>
+	<key>name</key>
+	<string>Operations</string>
+	<key>snippetPlists</key>
+	<array>
+		<dict>
+			<key>abbreviation</key>
+			<string>..uniq</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2017-02-28T20:10:34Z</date>
+			<key>label</key>
+			<string>Unique Lines Only (Remove Duplicates)</string>
+			<key>modificationDate</key>
+			<date>2017-02-28T20:56:35Z</date>
+			<key>plainText</key>
+			<string>#!/bin/bash
+echo "%clipboard" | uniq</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>uuidString</key>
+			<string>42759AA7-C25C-4B72-8EAB-B5BD51D1DD9A</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>..za</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2017-02-28T20:10:34Z</date>
+			<key>label</key>
+			<string>Alphabetize (Z-A)</string>
+			<key>modificationDate</key>
+			<date>2017-02-28T20:56:08Z</date>
+			<key>plainText</key>
+			<string>#!/bin/bash
+echo "%clipboard" | sort -r</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>uuidString</key>
+			<string>253F9C69-BCE4-461B-BA8D-59F7B7F2E6E5</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>..az</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2017-02-28T20:10:34Z</date>
+			<key>label</key>
+			<string>Alphabetize (A-Z)</string>
+			<key>modificationDate</key>
+			<date>2017-02-28T20:59:43Z</date>
+			<key>plainText</key>
+			<string>#!/bin/bash
+echo "%clipboard" | sort</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>uuidString</key>
+			<string>795D4EE1-3E83-4F31-973A-B1E5E4508457</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>..encurl</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2018-06-08T20:10:36Z</date>
+			<key>label</key>
+			<string>Encode: URL</string>
+			<key>modificationDate</key>
+			<date>2018-06-08T20:13:15Z</date>
+			<key>plainText</key>
+			<string>#!/usr/bin/php
+&lt;?php
+
+$clip = &lt;&lt;&lt;'EOT'
+%clipboard
+EOT;
+
+echo urlencode($clip);</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>uuidString</key>
+			<string>1C62C495-3573-4A32-8AEF-01C21CFE6573</string>
+		</dict>
+	</array>
+	<key>snippetUUIDs</key>
+	<array>
+		<string>42759AA7-C25C-4B72-8EAB-B5BD51D1DD9A</string>
+		<string>253F9C69-BCE4-461B-BA8D-59F7B7F2E6E5</string>
+		<string>795D4EE1-3E83-4F31-973A-B1E5E4508457</string>
+		<string>1C62C495-3573-4A32-8AEF-01C21CFE6573</string>
+	</array>
+	<key>suggestAbbreviations</key>
+	<integer>1</integer>
+	<key>updateFrequency</key>
+	<integer>0</integer>
+	<key>uuidString</key>
+	<string>8607FB03-071B-4005-8CE8-05225A494537</string>
+	<key>writable</key>
+	<integer>1</integer>
+</dict>
+</plist>
