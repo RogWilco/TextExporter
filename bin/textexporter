@@ -1,12 +1,17 @@
 #!/usr/bin/env node
 'use strict';
 
+const bunyan = require('bunyan');
+
 const Reader = require('../lib/Readers/TextExpander');
 const Writer = require('../lib/Writers/AutoKey');
 
 // Setup
 const source = process.argv[2];
 const target = process.argv[3];
+const logger = bunyan.createLogger({
+  name: 'TextExporter',
+});
 
 // Read from source.
 const data = Reader.read(source);
